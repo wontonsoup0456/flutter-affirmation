@@ -1,4 +1,8 @@
+import 'dart:math';
+
 void main() {
+  Random random = new Random();
+  int randomNumber = random.nextInt(98);
   List<String> myList = [
     "Pronoun1 feel the love of those who are not physically around pronoun15",
     "Pronoun1 take pleasure in pronoun2 own solitude",
@@ -100,5 +104,5 @@ void main() {
     "Pronoun4 deeply fulfilled with who Pronoun4."
   ];
 /* array for she, he pronouns*/
-  print(myList[1]);
+  print(myList[randomNumber]);
 }
